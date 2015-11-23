@@ -5,6 +5,7 @@ var State = require('../../src/state.js');
 class TestState1 extends State {
 
   constructor(){
+
     super();
     this.name = 'test-state-1';
     this.status = null;
@@ -14,16 +15,22 @@ class TestState1 extends State {
 
   update(){
 
+    super.update();
+
     this.updated = true;
 
   }
   onEnter(){
+
+    super.onEnter();
 
     this.status = 'on ENTER test '+this.name;
 
   }
 
   onLeave(){
+
+    super.onLeave();
 
     this.status = 'on LEAVE test '+this.name;
 
@@ -34,20 +41,24 @@ class TestState1 extends State {
 class TestState2 extends State {
 
   constructor(){
+
     super();
     this.name = 'test-state-2';
     this.status = null;
 
   }
 
-  update(){}
   onEnter(){
+
+    super.onEnter();
 
     this.status = 'on ENTER test '+this.name;
 
   }
 
   onLeave(){
+
+    super.onLeave();
 
     this.status = 'on LEAVE test '+this.name;
 
@@ -58,21 +69,23 @@ class TestState2 extends State {
 class TestState3 extends State {
 
   constructor(){
+
     super();
     this.name = 'test-state-3';
     this.status = null;
 
   }
 
-  update(){}
   onEnter(){
 
+    super.onEnter();
     this.status = 'on ENTER test '+this.name;
 
   }
 
   onLeave(){
 
+    super.onLeave();
     this.status = 'on LEAVE test '+this.name;
 
   }
