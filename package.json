@@ -1,0 +1,20 @@
+{
+  "name": "state-machine",
+  "version": "0.0.0",
+  "description": "A State Machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava && nyc report --reporter=lcov"
+  },
+  "keywords": [
+    "game",
+    "state",
+    "machine"
+  ],
+  "author": "“Eduardo <EduardoLopesDS@gmail.com> (http://square64.tumblr.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.5.0",
+    "nyc": "^3.2.2"
+  }
+}
