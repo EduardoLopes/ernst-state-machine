@@ -1,5 +1,5 @@
 {
-  "name": "state-machine",
+  "name": "ernst-state-machine",
   "version": "0.0.0",
   "description": "A State Machine",
   "main": "index.js",
