@@ -26,18 +26,18 @@ There's two objects: Machine and State.
 
 * `update()` - Calls the update function of the current state if the current state is set
 * `set(stateName)` - Set the current state
-* `get(stateName)` - Return the state with with that name
+* `get(stateName)` - Get the state with that name
 * `add(stateInstance)` - Add a state to the machine
 
 ### State
   
-`State` is the state that can be added to the ``Machine`. These are the methods:
+`State` is the state that can be added to the `Machine`. These are the methods:
 
 * `update()` - Called when this is the current state
 * `onEnter()` - Called when machine enters on this state
 * `onLeave()` - Called when the machine leaves this state
 
-States have two properties:
+`State` have two properties:
 * `name` - The name of the state. It will be added to the sate machine using this name, and it will be used to set it as current state or get it.
 * `machine` - Reference to the machine that the state was add to
 
