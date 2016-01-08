@@ -2,6 +2,8 @@
 
 > A State Machine
 
+[![Build Status](https://travis-ci.org/EduardoLopes/ernst-state-machine.svg)](https://travis-ci.org/EduardoLopes/ernst-state-machine) [![Coverage Status](https://coveralls.io/repos/EduardoLopes/ernst-state-machine/badge.svg?branch=master&service=github)](https://coveralls.io/github/EduardoLopes/ernst-state-machine?branch=master)
+
 ## Install
 
 `npm install https://github.com/EduardoLopes/ernst-state-machine.git`
