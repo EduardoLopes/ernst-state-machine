@@ -16,8 +16,6 @@ class Machine {
       this.currentState.update();
     }
 
-    return this.currentState;
-
   }
 
   set(name){
@@ -25,8 +23,12 @@ class Machine {
     if(this.currentState != null){
       this.currentState.onLeave();
     }
+
     this.currentState = this.states.get(name);
-    this.currentState.onEnter();
+
+    if(this.currentState != null){
+      this.currentState.onEnter();
+    }
 
   }
 
