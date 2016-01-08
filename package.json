@@ -11,8 +11,16 @@
     "state",
     "machine"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoLopes/ernst-state-machine.git"
+  },
   "author": "“Eduardo <EduardoLopesDS@gmail.com> (http://square64.tumblr.com/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EduardoLopes/ernst-state-machine/issues"
+  },
+  "homepage": "https://github.com/EduardoLopes/ernst-state-machine#readme",
   "devDependencies": {
     "ava": "^0.5.0",
     "babelify": "^7.2.0",

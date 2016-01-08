@@ -7,6 +7,13 @@ var State = require('./src/state.js');
 module.exports.Machine = Machine;
 module.exports.State = State;
 
+/* istanbul ignore next */
+if (typeof window !== 'undefined') {
+
+  window.Machine = Machine;
+  window.State = State;
+}
+
 },{"./src/machine.js":2,"./src/state.js":3}],2:[function(require,module,exports){
 'use strict';
 
